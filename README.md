@@ -58,7 +58,3 @@ llamafactory-cli cot
 ## 📜 License
 
 This project is licensed under the Apache 2.0 License. See the `LICENSE` file for more details.
-
-## 👋 Contact
-
-For any questions, please feel free to open an issue or contact us directly. (TODO: Add contact email if desired).
