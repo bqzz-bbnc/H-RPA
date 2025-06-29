@@ -3,14 +3,10 @@
 This repository contains the official author's implementation and datasets associated with the paper **"H-RPA: A Unified Framework for Hallucination-Reasoning Role-Playing Agent"**.
 
 <p align="center">
-  <a href="https://bqzz-bbnc.github.io/H-RPA/">
-    <img src="https://img.shields.io/badge/Homepage-Project_Page-blue?style=for-the-badge" alt="Homepage">
-  </a>
-  &nbsp;&nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/Paper-PDF-red?style=for-the-badge&logo=adobe-acrobat-reader" alt="Paper (Coming Soon)">
-  </a>
+    <a href="https://bqzz-bbnc.github.io/H-RPA/"><strong>Homepage</strong></a> |
+    <a href="#"><strong>Paper (Coming Soon)</strong></a>
 </p>
+
 -----
 
 ## 📝 Overview
