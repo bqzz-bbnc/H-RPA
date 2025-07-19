@@ -1,0 +1,61 @@
+# 数据生成器配置
+
+# OpenAI API 配置
+openai:
+  api_key: "your-api-key-here"
+  base_url: "https://api.openai.com/v1"
+  timeout: 60
+  max_retries: 3
+
+# 模型配置
+models:
+  base_model: "gpt-4o-mini"
+  adv_model: "gpt-4o"
+
+# 示例模式配置
+demo_mode:
+  enabled: true
+  max_items_per_api_call: 2
+
+# 基础路径配置
+paths:
+  # 数据集根目录
+  roleagentbench_root: "/path/to/RoleAgentBench"
+  
+  # 本地输入目录
+  input_base: "/path/to/input"
+  
+  # 输出目录
+  output_base: "/path/to/output"
+  process_dir: "/path/to/output/process"
+  qa_dir: "/path/to/output/qa"
+  all_dir: "/path/to/output/all"
+  train_dir: "/path/to/output/train"
+  test_dir: "/path/to/output/test"
+
+# 需要添加S1E1后缀的worlds
+s1e1_worlds:
+  - "家有儿女"
+  - "狂飙"
+  - "Friends"
+  - "The Big Bang Theory"
+
+# 世界和角色配置
+worlds:
+  "家有儿女":
+    - "刘星"
+    - "夏东海"
+    - "小雨"
+    - "小雪"
+  "Harry_Potter":
+    - "Harry"
+    - "Hermione"
+    - "Ron"
+    - "Dumbledore"
+    - "Voldemort"
+
+# 数据生成配置
+generation:
+  train_test_split: 0.8
+  random_seed: 42
+  sleep_interval: 1 
