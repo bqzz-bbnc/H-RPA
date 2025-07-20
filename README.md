@@ -17,13 +17,13 @@ Role-playing with large language models (LLMs) have gained significant attention
 
 Our release is planned in three stages to progressively share our work with the community.
 
-  - [x] **Stage 1: Example Datasets & Evaluation Code (Available Now)**
+  - [x] **Stage 1: Example Datasets & Evaluation Code**
 
       - We have released two sample datasets to demonstrate the data format and content, along with our evaluation code (`score_hrpa`). See the Datasets section for more details.
 
-  - [ ] **Stage 2: Full Code Release (Coming Soon)**
+  - [x] **Stage 2: Full Code Release**
 
-      - The complete training, inference, and **dataset construction code** for the H-RPA framework will be open-sourced soon.
+      - The complete **dataset construction code** for the H-RPA framework has been open-sourced.
 
   - [ ] **Stage 3: Full Release (Upon Paper Acceptance)**
 
